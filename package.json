@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/findwalle/trade-tracker/issues"
   },
-  "homepage": "https://github.com/findwalle/trade-tracker#readme"
+  "homepage": "https://github.com/findwalle/trade-tracker#readme",
+  "dependencies": {
+    "webpack": "^5.74.0"
+  }
 }
