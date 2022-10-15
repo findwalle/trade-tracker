@@ -1,5 +1,7 @@
 import React from 'react'
-import { BrowserRouter as Router, Switch, Route, Redirect, Routes } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Redirect, Routes } from 'react-router-dom'
+
+import TestMessage from './home/components/TestMessage.jsx'
 
 import './stylesheets/application.scss'
 
@@ -11,15 +13,13 @@ import './stylesheets/application.scss'
 
 function App (props) {
   return (
-    <Router>
-      <Switch>
-
-        {/* <Route path='/' component={HomeContainer} />
-        <Route path='/profile' component={Profile}/> */}
-
-      </Switch>
-    </Router>
+    <TestMessage> </TestMessage>
   )
 }
+
+// <Router>
+//     <Route path='/' component={HomeContainer} />
+//     <Route path='/profile' component={Profile}/>
+// </Router>
 
 export default App
