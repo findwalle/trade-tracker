@@ -1,4 +1,13 @@
 .calenderContainer {
+  display: grid;
+  overflow: hidden;
   border: 1px solid black;
+  grid-template-columns: 10% 10% 10% 10% 10% 10% 10%;
+
   
+
+  .calenderBoxContainer {
+    // grid-area: calBox;
+    border: 1px dotted black;
+  }
 }

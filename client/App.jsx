@@ -2,7 +2,7 @@ import React from 'react'
 import { BrowserRouter as Router, Route, Redirect, Routes } from 'react-router-dom'
 
 import TestMessage from './home/components/TestMessage.jsx';
-import CalenderContainer from './home/containers/CalenderContainer';
+import CalendarContainer from './home/containers/CalendarContainer';
 
 import './stylesheets/application.scss'
 
@@ -14,7 +14,7 @@ import './stylesheets/application.scss'
 
 function App (props) {
   return (
-    <CalenderContainer></CalenderContainer>
+    <CalendarContainer/>
   )
 }
 
